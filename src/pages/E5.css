@@ -1,0 +1,254 @@
+.e5 {
+  padding-top: 80px;
+}
+
+.hero-e5 {
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+}
+
+/* Tableau des compétences */
+.competences-table {
+  background-color: var(--bg-primary);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 2rem;
+  box-shadow: var(--shadow-md);
+  border-radius: 0.75rem;
+  border: 1px solid var(--border-color);
+}
+
+.competences-table-content {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--bg-primary);
+}
+
+.competences-table-content thead {
+  background-color: var(--bg-secondary);
+  position: sticky;
+  top: 0;
+}
+
+.competences-table-content th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-primary);
+  border-bottom: 2px solid var(--primary-color);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.competences-table-content td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.competences-table-content tbody tr:hover {
+  background-color: var(--bg-secondary);
+}
+
+.code-cell {
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+  color: var(--primary-color);
+  min-width: 100px;
+}
+
+.libelle-cell {
+  min-width: 250px;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.projets-cell {
+  min-width: 150px;
+  font-size: 0.8125rem;
+}
+
+.justification-cell {
+  min-width: 300px;
+  line-height: 1.6;
+}
+
+.niveau-badge {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.niveau-maîtrisé {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.niveau-en-cours {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.niveau-non-traité {
+  background-color: var(--bg-tertiary);
+  color: var(--text-secondary);
+}
+
+/* Projets évaluables */
+.projets-evaluables {
+  background-color: var(--bg-secondary);
+}
+
+.projets-evaluables-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.projet-evaluable-card {
+  background-color: var(--bg-primary);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+}
+
+.projet-evaluable-card h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.projet-evaluable-description {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.projet-evaluable-section {
+  margin-bottom: 1.5rem;
+}
+
+.projet-evaluable-section h4 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.competences-codes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.competence-code {
+  padding: 0.375rem 0.75rem;
+  background-color: var(--bg-tertiary);
+  color: var(--primary-color);
+  border-radius: 0.375rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: 'Courier New', monospace;
+  border: 1px solid var(--border-color);
+}
+
+.livrables-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.livrables-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--text-secondary);
+}
+
+.livrables-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+/* Annexes */
+.annexes {
+  background-color: var(--bg-primary);
+}
+
+.annexes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.annexe-card {
+  background-color: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
+  transition: var(--transition);
+}
+
+.annexe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.annexe-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.annexe-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.annexe-card p {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.annexe-placeholder {
+  padding: 1rem;
+  background-color: var(--bg-tertiary);
+  border-radius: 0.5rem;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-style: italic;
+  border: 1px dashed var(--border-color);
+}
+
+@media (max-width: 768px) {
+  .table-wrapper {
+    font-size: 0.75rem;
+  }
+
+  .competences-table-content th,
+  .competences-table-content td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .projets-evaluables-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .annexes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
