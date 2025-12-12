@@ -7,224 +7,224 @@ const E5 = () => {
       libelle: 'Maquetter une application',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Création de maquettes pour l\'interface utilisateur et les parcours utilisateurs'
+      realisation: 'Création de maquettes pour l\'interface utilisateur et les parcours utilisateurs'
     },
     {
       code: 'C1.1.2',
       libelle: 'Concevoir une base de données',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec', 'CRUD API'],
-      justification: 'Conception de schémas de base de données (MCD, MLD) pour PostgreSQL et MongoDB'
+      realisation: 'Conception de schémas de base de données (MCD, MLD) pour PostgreSQL et MongoDB'
     },
     {
       code: 'C1.1.3',
       libelle: 'Mettre en place une base de données',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Implémentation et administration de bases de données PostgreSQL'
+      realisation: 'Implémentation et administration de bases de données PostgreSQL'
     },
     {
       code: 'C1.1.4',
       libelle: 'Développer une interface utilisateur',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Développement d\'interfaces web responsive avec HTML/CSS/JavaScript'
+      realisation: 'Développement d\'interfaces web responsive avec HTML/CSS/JavaScript'
     },
     {
       code: 'C1.1.5',
       libelle: 'Développer des composants d\'accès aux données',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec', 'CRUD API'],
-      justification: 'Développement de modèles et contrôleurs pour l\'accès aux données'
+      realisation: 'Développement de modèles et contrôleurs pour l\'accès aux données'
     },
     {
       code: 'C1.1.6',
       libelle: 'Développer la partie back-end d\'une application web',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec', 'Agent IA CV'],
-      justification: 'Développement d\'APIs REST avec Node.js et Express.js'
+      realisation: 'Développement d\'APIs REST avec Node.js et Express.js'
     },
     {
       code: 'C1.1.7',
       libelle: 'Élaborer et mettre en œuvre des composants dans une application de gestion de contenu',
       niveau: 'En cours',
       projets: ['SimplifiedAction'],
-      justification: 'Développement de composants réutilisables et modulaires'
+      realisation: 'Développement de composants réutilisables et modulaires'
     },
     {
       code: 'C1.2.1',
       libelle: 'Collaborer à la gestion d\'un projet informatique',
       niveau: 'Maîtrisé',
       projets: ['Demosec'],
-      justification: 'Participation active au projet Demosec en équipe (3 associés + 1 actionnaire)'
+      realisation: 'Participation active au projet Demosec en équipe (3 associés + 1 actionnaire)'
     },
     {
       code: 'C1.2.2',
       libelle: 'Concevoir une application',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Conception complète d\'applications avec architecture et diagrammes'
+      realisation: 'Conception complète d\'applications avec architecture et diagrammes'
     },
     {
       code: 'C1.2.3',
       libelle: 'Développer des applications communicantes',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Agent IA CV'],
-      justification: 'Intégration d\'APIs externes (Stripe, Finnhub, Mailersend, OpenAI)'
+      realisation: 'Intégration d\'APIs externes (Stripe, Finnhub, Mailersend, OpenAI)'
     },
     {
       code: 'C1.2.4',
       libelle: 'Développer une application mobile',
       niveau: 'Non traité',
       projets: [],
-      justification: 'Non applicable dans le cadre des projets réalisés'
+      realisation: 'Non applicable dans le cadre des projets réalisés'
     },
     {
       code: 'C1.3.1',
       libelle: 'Mettre en place son environnement d\'apprentissage personnel',
       niveau: 'Maîtrisé',
       projets: ['Tous'],
-      justification: 'Configuration d\'environnements de développement, utilisation de Git, documentation'
+      realisation: 'Configuration d\'environnements de développement, utilisation de Git, documentation'
     },
     {
       code: 'C1.3.2',
       libelle: 'Mettre en œuvre des outils et stratégies de veille informationnelle',
       niveau: 'Maîtrisé',
       projets: ['Tous'],
-      justification: 'Veille technologique, documentation, utilisation de ressources en ligne'
+      realisation: 'Veille technologique, documentation, utilisation de ressources en ligne'
     },
     {
       code: 'C1.3.3',
       libelle: 'Gérer son identité professionnelle',
       niveau: 'Maîtrisé',
       projets: ['Portfolio'],
-      justification: 'Création et mise à jour du portfolio, présence professionnelle'
+      realisation: 'Création et mise à jour du portfolio, présence professionnelle'
     },
     {
       code: 'C1.3.4',
       libelle: 'Développer son projet professionnel',
       niveau: 'Maîtrisé',
       projets: ['Portfolio', 'Tous'],
-      justification: 'Définition d\'objectifs professionnels, développement de compétences'
+      realisation: 'Définition d\'objectifs professionnels, développement de compétences'
     },
     {
       code: 'C2.1.1',
       libelle: 'Installer un poste de développement',
       niveau: 'Maîtrisé',
       projets: ['Tous'],
-      justification: 'Configuration d\'environnements Windows et Debian, outils de développement'
+      realisation: 'Configuration d\'environnements Windows et Debian, outils de développement'
     },
     {
       code: 'C2.1.2',
       libelle: 'Développer des applications informatiques simples',
       niveau: 'Maîtrisé',
       projets: ['CRUD API', 'SimplifiedAction'],
-      justification: 'Développement d\'applications complètes avec frontend et backend'
+      realisation: 'Développement d\'applications complètes avec frontend et backend'
     },
     {
       code: 'C2.2.1',
       libelle: 'Analyser un besoin exprimé',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Analyse des besoins utilisateurs, rédaction de cahiers des charges'
+      realisation: 'Analyse des besoins utilisateurs, rédaction de cahiers des charges'
     },
     {
       code: 'C2.2.2',
       libelle: 'Élaborer un dossier de choix de solution technique',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Comparaison de solutions techniques, choix argumentés'
+      realisation: 'Comparaison de solutions techniques, choix argumentés'
     },
     {
       code: 'C2.2.3',
       libelle: 'Développer des composants métier',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Développement de logique métier, algorithmes, traitements'
+      realisation: 'Développement de logique métier, algorithmes, traitements'
     },
     {
       code: 'C2.2.4',
       libelle: 'Construire une application organisée en couches',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Architecture en couches (présentation, logique métier, données)'
+      realisation: 'Architecture en couches (présentation, logique métier, données)'
     },
     {
       code: 'C2.3.1',
       libelle: 'Mettre en œuvre des mécanismes de sécurité',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Sécurisation des applications, protection des clés API, authentification'
+      realisation: 'Sécurisation des applications, protection des clés API, authentification'
     },
     {
       code: 'C2.3.2',
       libelle: 'Mettre en œuvre des mécanismes d\'authentification',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Implémentation de systèmes d\'authentification et d\'autorisation'
+      realisation: 'Implémentation de systèmes d\'authentification et d\'autorisation'
     },
     {
       code: 'C2.3.3',
       libelle: 'Gérer les droits d\'accès',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Gestion des rôles et permissions utilisateurs'
+      realisation: 'Gestion des rôles et permissions utilisateurs'
     },
     {
       code: 'C2.4.1',
       libelle: 'Concevoir et mettre en place une base de données',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Conception et implémentation de bases de données relationnelles'
+      realisation: 'Conception et implémentation de bases de données relationnelles'
     },
     {
       code: 'C2.4.2',
       libelle: 'Mettre en œuvre des mécanismes de stockage de données',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Gestion du stockage, requêtes SQL, optimisation'
+      realisation: 'Gestion du stockage, requêtes SQL, optimisation'
     },
     {
       code: 'C2.4.3',
       libelle: 'Mettre en œuvre des mécanismes de gestion de données',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'CRUD complet, gestion des transactions, intégrité des données'
+      realisation: 'CRUD complet, gestion des transactions, intégrité des données'
     },
     {
       code: 'C2.5.1',
       libelle: 'Recenser et identifier les ressources numériques',
       niveau: 'Maîtrisé',
       projets: ['Tous'],
-      justification: 'Identification et utilisation de ressources numériques pertinentes'
+      realisation: 'Identification et utilisation de ressources numériques pertinentes'
     },
     {
       code: 'C2.5.2',
       libelle: 'Traiter des demandes concernant les applications',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Support utilisateur, résolution de problèmes, maintenance'
+      realisation: 'Support utilisateur, résolution de problèmes, maintenance'
     },
     {
       code: 'C2.5.3',
       libelle: 'Développer la présence en ligne de l\'organisation',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction', 'Demosec'],
-      justification: 'Déploiement d\'applications web, hébergement, SEO'
+      realisation: 'Déploiement d\'applications web, hébergement, SEO'
     },
     {
       code: 'C2.5.4',
       libelle: 'Référencer les services en ligne de l\'organisation',
       niveau: 'En cours',
       projets: ['SimplifiedAction'],
-      justification: 'Optimisation SEO, référencement des services'
+      realisation: 'Optimisation SEO, référencement des services'
     },
     {
       code: 'C2.5.5',
       libelle: 'Mettre en œuvre une solution de veille informationnelle',
       niveau: 'Maîtrisé',
       projets: ['SimplifiedAction'],
-      justification: 'Mise en place de systèmes de veille et d\'alertes'
+      realisation: 'Mise en place de systèmes de veille et d\'alertes'
     }
   ]
 
@@ -276,7 +276,7 @@ const E5 = () => {
                   <th>Libellé</th>
                   <th>Niveau</th>
                   <th>Projets</th>
-                  <th>Justification</th>
+                  <th>Réalisation</th>
                 </tr>
               </thead>
               <tbody>
@@ -292,7 +292,7 @@ const E5 = () => {
                     <td className="projets-cell">
                       {comp.projets.length > 0 ? comp.projets.join(', ') : '-'}
                     </td>
-                    <td className="justification-cell">{comp.justification}</td>
+                    <td className="realisation-cell">{comp.realisation}</td>
                   </tr>
                 ))}
               </tbody>
