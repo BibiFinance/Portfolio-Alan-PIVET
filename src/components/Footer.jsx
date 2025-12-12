@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} NOM Prénom - Tous droits réservés</p>
+          <p>&copy; {currentYear} PIVET Alan - Tous droits réservés</p>
         </div>
       </div>
     </footer>

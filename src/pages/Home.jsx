@@ -15,7 +15,7 @@ const Home = () => {
             </div>
             <div className="hero-text">
               <h1 className="hero-title">
-                Bonjour, je suis <span className="highlight">NOM Prénom</span>
+                Bonjour, je suis <span className="highlight">PIVET Alan</span>
               </h1>
               <p className="hero-subtitle">
                 Étudiant en <strong>BTS SIO - Option SLAM</strong>
